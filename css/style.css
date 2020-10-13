@@ -1,0 +1,38 @@
+#header{
+    text-align:center;
+    background-color: rgb(211, 135, 105);
+    /*background: url('images/mountain.jpg');*/
+    padding-block: 55px;
+}
+
+h1{
+    color:white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 100px;
+}
+
+.col-sm-4{
+    text-align:center; 
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    border-style: solid;
+    padding-block: 10px;
+    margin-top: 10px;
+}
+
+a{
+    color:black;
+}
+
+#texto{
+    text-align:justify; 
+    margin-top:40px;
+    margin-bottom:40px;
+    font-size: 20px;;
+}
+
+#footer{
+    text-align: center;
+    background-color: black;
+    color: rgb(204, 204, 204);
+}
