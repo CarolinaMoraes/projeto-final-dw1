@@ -1,8 +1,8 @@
 #header{
     text-align:center;
-    background-color: grey;
-   /* background: url('images/wood.jpg') ;*/
-    padding-block: 60px;
+    background-color: rgb(211, 135, 105);
+    /*background: url('images/mountain.jpg');*/
+    padding-block: 55px;
 }
 
 h1{
@@ -28,9 +28,11 @@ a{
     text-align:justify; 
     margin-top:40px;
     margin-bottom:40px;
-    font-size: 25px;;
+    font-size: 20px;;
 }
 
 #footer{
+    text-align: center;
     background-color: black;
+    color: rgb(204, 204, 204);
 }
