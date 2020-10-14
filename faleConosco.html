@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <title>Técnico da Indústria Ltda.</title>
     <meta charset="utf-8">
@@ -8,29 +9,60 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-   
-   <div class="row">
-    <div class="col-sm-12" id="header"><h1>Técnico da Indústria Ltda.</h1></div>
-  </div> 
-
+    <!-- Hero section -->
     <div class="row">
-        <div class ="col-sm-4"><a href="sobreNos.html">Sobre Nós</a></div>
-        <div class ="col-sm-4"><a href="localizacao.html">Localização</a></div>
-        <div class ="col-sm-4"><a href="faleConosco.html">Fale Conosco</a></div>
+        <div class="col-sm-12" id="header">
+            <h1>Técnico da Indústria Ltda.</h1>
+        </div>
     </div>
 
-    
-
+    <!-- Menu de navegação -->
     <div class="row">
-        <div class="col-sm-12" id="footer"><p>Direitos autorais 2020 Técnico da Indústria Ltda. </p></div>
+        <div class="col-sm-4"><a href="sobreNos.html">Sobre Nós</a></div>
+        <div class="col-sm-4"><a href="localizacao.html">Localização</a></div>
+        <div class="col-sm-4"><a href="faleConosco.html">Fale Conosco</a></div>
     </div>
 
-    
+    <!-- Seção "fale conosco" -->
+    <div class="container fale-conosco-wrapper">
 
-  
-   
+        <h2>Fale Conosco</h2>
+
+        <form class="form-horizontal">
+
+            <div class="row">
+                <div class="col-sm-12 col-lg-6 form-coluna">
+                    <div class="form-group"><label for="inputNome">Nome <span class="text-danger">*</span></label><input class="form-control"
+                            id="inputNome" type="text"></div>
+                    <div class="form-group"><label for="inputEmail">Email <span class="text-danger">*</span></label><input class="form-control"
+                            id="inputEmail" type="email"></div>
+                    <div class="form-group"><label for="inputTelefone">Telefone</label><input class="form-control"
+                            id="inputTelefone" type="text">
+                        <small id="inputTelefone" class="form-text text-muted">(Opcional)</small>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-6 form-coluna">
+                    <div class="form-group">
+                        <label for="textareaMensagem">Mensagem <span class="text-danger">*</span></label>
+                        <textarea class="form-control" id="textareaMensagem" rows="7"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </form>
+
+
+    </div>
+
+    <!-- Rodapé -->
+    <div class="row">
+        <div class="col-sm-12" id="footer">
+            <p>Direitos autorais 2020 Técnico da Indústria Ltda. </p>
+        </div>
+    </div>
 </body>
 </html>

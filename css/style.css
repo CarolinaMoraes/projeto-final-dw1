@@ -1,38 +1,66 @@
-#header{
-    text-align:center;
+html, body {
+    overflow-x: hidden;
+}
+
+#header {
+    text-align: center;
     background-color: rgb(211, 135, 105);
     /*background: url('images/mountain.jpg');*/
     padding-block: 55px;
 }
 
-h1{
-    color:white;
+h1 {
+    color: white;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 100px;
 }
 
-.col-sm-4{
-    text-align:center; 
+.col-sm-4 {
+    text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 40px;
     border-style: solid;
     padding-block: 10px;
-    margin-top: 10px;
 }
 
-a{
-    color:black;
+a {
+    color: black;
 }
 
-#texto{
-    text-align:justify; 
-    margin-top:40px;
-    margin-bottom:40px;
-    font-size: 20px;;
+#texto {
+    text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    ;
 }
 
-#footer{
+#footer {
     text-align: center;
     background-color: black;
     color: rgb(204, 204, 204);
+}
+
+/*Fale conosco*/
+
+.fale-conosco-wrapper {
+    margin: 25px auto;
+}
+
+.fale-conosco-wrapper form {
+    margin-left: 10px;
+}
+
+.fale-conosco-wrapper .row {
+    margin: 30px auto;
+}
+
+@media(min-width: 1200px) {
+    .form-coluna+.form-coluna {
+        margin-left: 5%;
+    }
+    .form-coluna {
+        max-width: 500px;
+        margin: auto;
+    }
 }
