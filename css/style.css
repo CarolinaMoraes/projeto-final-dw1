@@ -3,7 +3,23 @@ html, body {
 }
 
 /*CSS abaixo feito por Clarissa Melozi SP3030008*/
-#header {
+
+#header{
+    text-align:center;
+    text-shadow:10px;
+    background-image: url(images/wood.jpg);
+    background-size: 100% 100%;
+    padding-block: 55px;
+}
+
+#subheader{
+
+    color:white;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1{
+    color:white;
     text-align: center;
     background-color: rgb(211, 135, 105);
     padding-block: 55px;
@@ -13,6 +29,7 @@ h1 {
     color: white;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 100px;
+    font-weight: bold;
 }
 
 .col-sm-4 {
@@ -27,12 +44,13 @@ a {
     color: black;
 }
 
-#texto {
-    text-align: justify;
-    margin-top: 40px;
-    margin-bottom: 40px;
+
+#texto{
+    text-align:justify; 
+    margin-top:40px;
+    margin-bottom:40px;
     font-size: 20px;
-    ;
+
 }
 
 #footer {
