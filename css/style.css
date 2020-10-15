@@ -13,16 +13,8 @@ html, body {
 }
 
 #subheader{
-
     color:white;
     font-family: 'Open Sans Condensed', sans-serif;
-}
-
-h1{
-    color:white;
-    text-align: center;
-    background-color: rgb(211, 135, 105);
-    padding-block: 55px;
 }
 
 h1 {
@@ -53,11 +45,7 @@ a {
 
 }
 
-<<<<<<< HEAD
 #footer{
-=======
-#footer {
->>>>>>> 70d61a2c5a5e2480f973f58f16edc66d8182f667
     text-align: center;
     background-color: black;
     color: rgb(204, 204, 204);
