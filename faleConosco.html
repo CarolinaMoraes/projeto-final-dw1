@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Técnico da Indústria Ltda.</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Hero section -->
+    <div class="row">
+        <div class="col-sm-12" id="header">
+            <h1>Técnico da Indústria do Brasil Ltda.</h1>
+            <br> 
+            <h2 id="subheader">Sempre com você</h2>
+        </div>
+      </div> 
+    
+
+    <!-- Menu de navegação -->
+    <div class="row">
+        
+        <div class="col-sm-4"><a href="sobreNos.html">Sobre Nós</a></div>
+        <div class="col-sm-4"><a href="localizacao.html">Localização</a></div>
+        <div class="col-sm-4"><a href="faleConosco.html">Fale Conosco</a></div>
+
+    </div>
+
+    <!-- Seção "fale conosco" -->
+    <div class="container fale-conosco-wrapper">
+
+        <h2>Fale Conosco</h2>
+
+        <form class="form-horizontal" method="get" action="?" name="meu_form">
+
+            <div class="row">
+                <div class="col-sm-12 col-lg-6 form-coluna">
+                    <div class="form-group"><label for="inputNome">Nome <span class="text-danger">*</span></label><input
+                            class="form-control" id="inputNome" type="text" name="campo_nome" required></div>
+                    <div class="form-group"><label for="inputEmail">Email <span
+                                class="text-danger">*</span></label><input class="form-control" id="inputEmail"
+                            type="email" name="campo_email" placeholder="exemplo@email.com" required></div>
+                    <div class="form-group"><label for="inputTelefone">Telefone</label><input class="form-control"
+                            id="inputTelefone" type="text" placeholder="(xx) xxxx-xxxx">
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-lg-6 form-coluna">
+                    <div class="form-group">
+                        <label for="textareaMensagem">Mensagem <span class="text-danger">*</span></label>
+                        <textarea class="form-control" id="textareaMensagem" rows="7" name="campo_mensagem" required></textarea>
+                        <small id="inputTelefone" class="form-text text-muted">(* Preenchimento obrigatório)</small>
+                    </div>
+                    <button type="button" class="btn btn-primary" onClick="validarFormulario();">Enviar</button>
+                    <button type="reset" class="btn btn-primary">Limpar dados</button>
+                </div>
+            </div>
+        </form>
+
+
+    </div>
+
+    <!-- Rodapé -->
+    <div class="row">
+        <div class="col-sm-12" id="footer">
+            <p>Direitos autorais 2020 Técnico da Indústria do Brasil Ltda. </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- Carolina e Clarissa -->
+</body>
+
+</html>
