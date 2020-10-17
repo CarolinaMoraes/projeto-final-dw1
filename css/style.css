@@ -34,8 +34,15 @@ h1 {
 
 a {
     color: black;
+    display: block;/*Aumentar a área 'clicável' (Fabio Mendes)*/
 }
 
+a:hover
+{
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
 
 #texto{
     text-align:justify; 

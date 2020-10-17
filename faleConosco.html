@@ -25,10 +25,9 @@
 
     <!-- Menu de navegação -->
     <div class="row">
-
         <div class="col-sm-4"><a href="sobreNos.html">Sobre Nós</a></div>
         <div class="col-sm-4"><a href="localizacao.html">Localização</a></div>
-        <div class="col-sm-4"><a href="faleConosco.html">Fale Conosco</a></div>
+        <div class="col-sm-4" style="background-color: rgb(172, 165, 155);"><a href="faleConosco.html">Fale Conosco</a></div>
 
     </div>
 
@@ -37,27 +36,28 @@
 
         <h2>Fale Conosco</h2>
 
-        <form class="form-horizontal">
+        <form class="form-horizontal" method="get" action="?" name="meu_form">
 
             <div class="row">
                 <div class="col-sm-12 col-lg-6 form-coluna">
                     <div class="form-group"><label for="inputNome">Nome <span class="text-danger">*</span></label><input
-                            class="form-control" id="inputNome" type="text"></div>
+                            class="form-control" id="inputNome" type="text" name="campo_nome" required></div>
                     <div class="form-group"><label for="inputEmail">Email <span
                                 class="text-danger">*</span></label><input class="form-control" id="inputEmail"
-                            type="email"></div>
+                            type="email" name="campo_email" placeholder="exemplo@email.com" required></div>
                     <div class="form-group"><label for="inputTelefone">Telefone</label><input class="form-control"
-                            id="inputTelefone" type="text">
-                        <small id="inputTelefone" class="form-text text-muted">(Opcional)</small>
+                            id="inputTelefone" type="text" placeholder="(xx) xxxx-xxxx">
                     </div>
                 </div>
 
                 <div class="col-sm-12 col-lg-6 form-coluna">
                     <div class="form-group">
                         <label for="textareaMensagem">Mensagem <span class="text-danger">*</span></label>
-                        <textarea class="form-control" id="textareaMensagem" rows="7"></textarea>
+                        <textarea class="form-control" id="textareaMensagem" rows="7" name="campo_mensagem" required></textarea>
+                        <small id="inputTelefone" class="form-text text-muted">(* Preenchimento obrigatório)</small>
                     </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="button" class="btn btn-primary" onClick="validarFormulario();">Enviar</button>
+                    <button type="reset" class="btn btn-primary">Limpar dados</button>
                 </div>
             </div>
         </form>
@@ -71,6 +71,7 @@
             <p>Direitos autorais 2020 Técnico da Indústria do Brasil Ltda. </p>
         </div>
     </div>
+    <script src="script.js"></script>
     <!-- Carolina e Clarissa -->
 </body>
 
