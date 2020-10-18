@@ -83,3 +83,23 @@ a:hover
     }
 }
 
+/*Mapa - Localidade - Gabriely de Jesus Santos Bicigo - SP303061X */
+
+.endereco {
+    width: 80%;
+    margin: 0 auto;
+
+}
+#mapa {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#mapa iframe {
+    border: solid 1px #000 !important;
+}
